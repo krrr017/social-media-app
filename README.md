@@ -20,7 +20,7 @@ $ cd client          // go to client folder
 $ npm i              // npm install packages
 $ npm run start      // run it locally
 ```
-### Server-side usage(PORT6001)
+### Server-side usage(PORT3001)
 ```bash
 // root level
 $ cd server
@@ -37,28 +37,3 @@ MONGO_URL='your-mongodb-url'
 JWT_SECRET='something-hard-to-guess'
 PORT=3001
 ```
-# File Structure
-
-#### client - Holds the client application
-##### public - Holds all of our static files
-###### assets - Holds assets such as icons.
-#### src
-##### components - This folder holds all of the different components that will make up our views.
-##### scenes - These represent a unique page on the website (Home, navbar, login, and profile). These are still normal react components
-##### state - 
-##### App.js - This is what renders all of our browser routes and different views
-##### index.js - This is what renders the react app by rendering App.js, should not change
-##### index.css - This make up our views
-##### theme.js - This is contains the color of our views.
-##### jsconfig.json - 
-
-#### server - Holds the server application
-##### controllers - 
-##### data - 
-##### middleware - Hold the token verification 
-##### models - Set the models of data
-##### public - Holds all of our static files such as images and icons
-##### routes - 
-##### index.js - 
-##### .gitignore - 
-##### README - This file :)
