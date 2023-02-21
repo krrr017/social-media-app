@@ -14,18 +14,18 @@ local development: create a .env
 Since this project will hold both the client application and the server application there will be node modules in two different places.
 First run npm install from the root.
 
+### Server-side usage(PORT3001)
+```bash
+$ cd server
+$ npm i
+$ npm run start
+```
+
 ### Client-side usage(PORT: 3000)
 ```bash
 $ cd client          // go to client folder
 $ npm i              // npm install packages
 $ npm run start      // run it locally
-```
-### Server-side usage(PORT3001)
-```bash
-// root level
-$ cd server
-$ npm i
-$ npm run start
 ```
 
 # Getting Started
